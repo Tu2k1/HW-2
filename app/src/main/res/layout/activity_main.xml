@@ -1,10 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kotlin_banner"
+        />
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Why Kotlin?"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"/>
+    <View
+        android:layout_width="220dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Easy to learn"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Null Safety"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Data classes"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Clean, compat syntax"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Extensions"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        />
+    <View
+        android:layout_width="220dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reference:"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/why_kotlin_ref"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

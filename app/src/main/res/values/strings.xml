@@ -2,4 +2,5 @@
     <string name="app_name">Android Basics</string>
     <string name="android_app_development">Android Apps Development</string>
     <string name="name">By Turki Alharbi</string>
+    <string name="why_kotlin_ref">https://www.infoworld.com/article/3396141/why-kotlin-eight-features-that-could-convince-java-developers-to-switch.html</string>
 </resources>
